@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px;
+    background-image: url('../assets/banner.jpg'); 
+    background-size: cover;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
